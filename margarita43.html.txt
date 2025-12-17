@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos de Aprendizaje y Neurodiversidad</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+    background: #0d0d0d;
+    color: #ffffff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+/* --- TITULOS --- */
+h1 {
+    color: #a966ff;
+    font-size: 2.6rem;
+    margin-top: 120px;
+    text-align: center;
+}
+
+h2 {
+    color: #d8b4ff;
+}
+
+/* --- MENÚ --- */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    padding: 10px 0;
+    z-index: 10;
+    box-shadow: 0 0 10px #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #79a9ff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d3a2ff;
+}
+
+/* --- TARJETAS --- */
+.card {
+    width: 85%;
+    max-width: 850px;
+    background: #241036;
+    margin: 35px auto;
+    padding: 25px;
+    border-radius: 14px;
+    border-left: 8px solid #a966ff;
+    box-shadow: 0 0 12px rgba(169, 102, 255, 0.35);
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* --- AUTISMO ESPECIAL --- */
+.card.special {
+    background: #13233f;
+    border-left-color: #4db8ff;
+    box-shadow: 0 0 15px rgba(77, 184, 255, 0.4);
+}
+
+/* --- LISTAS --- */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.formulario {
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto;
+    background: #241036;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #a966ff;
+    box-shadow: 0 0 10px rgba(169, 102, 255, 0.3);
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #d8b4ff;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #3a2252;
+    color: #ffffff;
+}
+
+.formulario button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #a966ff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background: #c48fff;
+}
+.logotipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 80px; /* debajo del menú */
+    width: 260px;
+    height: 100%;
+    overflow-y: auto;
+    background: #1a0f29;
+    padding: 20px;
+    border-right: 3px solid #a966ff;
+    box-shadow: 0 0 15px rgba(169, 102, 255, 0.25);
+}
+
+.sidebar h3 {
+    color: #d8b4ff;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.sidebar h4 {
+    color: #a966ff;
+    margin-top: 15px;
+}
+
+.sidebar p {
+    color: #e6d6ff;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.sidebar hr {
+    border: none;
+    border-bottom: 1px solid #3a2252;
+    margin: 15px 0;
+}
+
+.sidebar-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 8px rgba(169, 102, 255, 0.4);
+}
+
+</style>
+</head>
+<body>
+<header>
+<div class="logotipo">
+<a href="https://google.com">
+    <img src="https://psicologiablu.es/wp-content/uploads/2019/04/que-es-autismo.jpg" 
+         alt="autistas" 
+         width="250">
+</a>
+</div>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#visual">Visual</a></li>
+        <li><a href="#auditivo">Auditivo</a></li>
+        <li><a href="#kinestesico">Kinestésico</a></li>
+        <li><a href="#logico">Lógico</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#individual">Individual</a></li>
+        <li><a href="#verbal">Verbal</a></li>
+        <li><a href="#naturalista">Naturalista</a></li>
+        <li><a href="#experiencial">Experiencial</a></li>
+        <li><a href="#descubrimiento">Descubrimiento</a></li>
+        <li><a href="#autismo">Autismo</a></li>
+        <li><a href="#neurodiversidad">Neurodiversidad</a></li>
+        <li><a href="#estrategias">Estrategias</a></li>
+    </ul>
+</nav>
+<div class="sidebar">
+    <h3>Información Útil</h3>
+
+    <p>
+        La neurodiversidad reconoce que cada cerebro funciona de forma única.
+        No es una falla, sino una variación natural humana.
+    </p>
+
+    <hr>
+
+    <h4>Dato Rápido</h4>
+    <p>
+        El aprendizaje visual es uno de los estilos más comunes y puede mejorar
+        hasta un 60% la retención de información.
+    </p>
+
+    <hr>
+
+    <h4>Definición</h4>
+    <p>
+        <strong>Autismo:</strong> condición del neurodesarrollo que afecta la
+        comunicación, la interacción social y la percepción sensorial.
+    </p>
+
+    <hr>
+
+    <h4>Imagen</h4>
+    <img src="https://www.redcenit.com/redcenit/wp-content/uploads/2021/01/mitos-sobre-el-autismo-1140x760.jpg"
+         alt="Autismo"
+         class="sidebar-img">
+</div>
+
+
+<header>
+    <h1 class="titulo">Tipos de Aprendizaje y Neurodiversidad</h1>
+    <p class="subtitulo">
+        Una guía completa para comprender cómo aprendemos y cómo adaptar el entorno educativo a diferentes perfiles.
+    </p>
+</header>
+
+
+<!-- ================= TIPOS DE APRENDIZAJE ================= -->
+
+<section id="visual" class="card">
+    <h2>Aprendizaje Visual</h2>
+    <p>
+        Las personas visuales aprenden mejor mediante imágenes, colores, diagramas y mapas conceptuales.
+    </p>
+    <ul>
+        <li>Recuerdan mejor lo que ven.</li>
+        <li>Usan colores, gráficos y esquemas.</li>
+        <li>Son buenos organizando información visualmente.</li>
+        <li>Prefieren videos o presentaciones.</li>
+    </ul>
+</section>
+
+<section id="auditivo" class="card">
+    <h2>Aprendizaje Auditivo</h2>
+    <p>
+        Se basa en la capacidad de aprender mejor escuchando.
+    </p>
+    <ul>
+        <li>Explicaciones orales.</li>
+        <li>Podcasts, audiolibros.</li>
+        <li>Repetición en voz alta.</li>
+        <li>Discusiones grupales.</li>
+    </ul>
+</section>
+
+<section id="kinestesico" class="card">
+    <h2>Aprendizaje Kinestésico</h2>
+    <p>
+        Estas personas aprenden haciendo: tocando, moviéndose o manipulando objetos.
+    </p>
+    <ul>
+        <li>Experimentos.</li>
+        <li>Actividades físicas.</li>
+        <li>Ejemplos prácticos.</li>
+    </ul>
+</section>
+
+<section id="logico" class="card">
+    <h2>Aprendizaje Lógico-Matemático</h2>
+    <p>
+        Se basa en el razonamiento, la secuenciación y la resolución de problemas.
+    </p>
+    <ul>
+        <li>Patrones numéricos.</li>
+        <li>Clasificación de información.</li>
+        <li>Pensamiento crítico.</li>
+        <li>Resolución de problemas complejos.</li>
+    </ul>
+</section>
+
+<section id="social" class="card">
+    <h2>Aprendizaje Social</h2>
+    <p>
+        Las personas sociales aprenden mejor en grupo o mediante la interacción.
+    </p>
+</section>
+
+<section id="individual" class="card">
+    <h2>Aprendizaje Individual</h2>
+    <p>
+        Preferencia por aprender solos, en silencio y sin distracciones.
+    </p>
+</section>
+
+<section id="verbal" class="card">
+    <h2>Aprendizaje Verbal-Lingüístico</h2>
+    <p>
+        Basado en el uso de las palabras, lectura y escritura.
+    </p>
+</section>
+
+<section id="naturalista" class="card">
+    <h2>Aprendizaje Naturalista</h2>
+    <p>
+        Aprenden mejor observando la naturaleza, animales, el ambiente y el mundo real.
+    </p>
+</section>
+
+<section id="experiencial" class="card">
+    <h2>Aprendizaje Experiencial</h2>
+    <p>Aprender mediante la experiencia directa.</p>
+</section>
+
+<section id="descubrimiento" class="card">
+    <h2>Aprendizaje por Descubrimiento</h2>
+    <p>El aprendizaje ocurre mediante la exploración y experimentación.</p>
+</section>
+
+
+<!-- ================= AUTISMO ================= -->
+
+<section id="autismo" class="card special">
+    <h2>Autismo y Aprendizaje</h2>
+    <p>
+        El autismo es una condición neurodiversa que afecta la comunicación, la percepción sensorial y la interacción social.
+        Cada persona autista tiene habilidades y desafíos diferentes.
+    </p>
+
+    <h3>Fortalezas comunes en personas autistas</h3>
+    <ul>
+        <li>Alta atención al detalle.</li>
+        <li>Pensamiento lógico y estructurado.</li>
+        <li>Gran memoria en temas de interés.</li>
+        <li>Honestidad, precisión y claridad.</li>
+    </ul>
+
+    <h3>Formas de aprendizaje que suelen funcionar bien</h3>
+    <ul>
+        <li>Apoyo visual (pictogramas, horarios visuales).</li>
+        <li>Instrucciones claras y paso por paso.</li>
+        <li>Ambientes tranquilos sin sobrecarga sensorial.</li>
+        <li>Rutinas y estructuras predecibles.</li>
+    </ul>
+
+    <h3>Adaptaciones útiles</h3>
+    <ul>
+        <li>Evitar luces fuertes o sonidos repetitivos.</li>
+        <li>Permitir descansos sensoriales.</li>
+        <li>Ofrecer ejemplos concretos.</li>
+        <li>Usar intereses especiales como motivación.</li>
+    </ul>
+</section>
+
+
+<!-- ================= NEURODIVERSIDAD ================= -->
+
+<section id="neurodiversidad" class="card">
+    <h2>Neurodiversidad</h2>
+    <p>
+        La neurodiversidad reconoce que cada cerebro funciona de forma diferente.
+        No es un defecto, sino una variación natural humana.
+    </p>
+
+    <h3>Incluye perfiles como:</h3>
+    <ul>
+        <li>Autismo</li>
+        <li>TDAH</li>
+        <li>Dislexia</li>
+        <li>Dispraxia</li>
+        <li>Altas capacidades</li>
+    </ul>
+</section>
+
+
+<!-- ================= ESTRATEGIAS DE APRENDIZAJE ================= -->
+
+<section id="estrategias" class="card">
+    <h2>Estrategias para Mejorar el Aprendizaje</h2>
+    <ul>
+        <li>Usar mapas mentales.</li>
+        <li>Explicar en voz alta lo aprendido.</li>
+        <li>Tomar descansos cada 25 minutos.</li>
+        <li>Hacer resúmenes y fichas de estudio.</li>
+        <li>Aprender enseñando a otros.</li>
+        <li>Crear rutinas y horarios.</li>
+    </ul>
+</section>
+
+<form class="formulario">
+    <h2>Formulario sobre Autismo y Necesidades de Apoyo</h2>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" min="1" placeholder="Tu edad">
+
+    <label for="preferencias">Preferencias de aprendizaje</label>
+    <input type="text" id="preferencias" name="preferencias" placeholder="Ej: visual, auditivo, kinestésico...">
+
+    <label for="fortalezas">Fortalezas personales</label>
+    <input type="text" id="fortalezas" name="fortalezas" placeholder="Ej: memoria, lógica, creatividad...">
+
+    <label for="dificultades">Áreas donde necesitas apoyo</label>
+    <input type="text" id="dificultades" name="dificultades" placeholder="Ej: organización, comunicación, ruido...">
+
+    <label for="sensibilidad">Sensibilidades sensoriales</label>
+    <input type="text" id="sensibilidad" name="sensibilidad" placeholder="Ej: luces fuertes, texturas, sonidos...">
+
+    <label for="ambiente">Ambiente de aprendizaje ideal</label>
+    <input type="text" id="ambiente" name="ambiente" placeholder="Ej: lugar tranquilo, rutinas claras...">
+
+    <label for="intereses">Intereses especiales</label>
+    <input type="text" id="intereses" name="intereses" placeholder="Ej: ciencias, animales, tecnología...">
+
+    <label for="metas">Metas de aprendizaje</label>
+    <input type="text" id="metas" name="metas" placeholder="¿Qué te gustaría aprender o mejorar?">
+
+    <label for="herramientas">Herramientas que te ayudan</label>
+    <input type="text" id="herramientas" name="herramientas" placeholder="Ej: pictogramas, horarios visuales...">
+
+    <label for="comunicacion">Forma de comunicación preferida</label>
+    <input type="text" id="comunicacion" name="comunicacion" placeholder="Ej: verbal, escrita, apoyos visuales...">
+
+    <label for="mensaje">Mensaje o comentario adicional</label>
+    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+</html>
+
